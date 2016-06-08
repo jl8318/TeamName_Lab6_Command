@@ -1,10 +1,6 @@
 package weapon;
 
-import static org.junit.Assert.assertEquals;
-/**
- * Test Class to test the functionality of Pistol 
- * @author Saad
- */
+import static org.junit.Assert.*;
 
 import org.junit.Test;
 
@@ -20,6 +16,7 @@ public class TestPistol
 		 */
 		
 		Pistol p = new Pistol(10 , 25 , 2 , 10);
+		assertTrue(p instanceof Weapon);
 	}
 	
 	/**
