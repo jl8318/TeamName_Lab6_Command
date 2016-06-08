@@ -9,6 +9,8 @@ import org.junit.runners.Suite.SuiteClasses;
 import recovery.TestRecoveryFractional;
 import recovery.TestRecoveryLinear;
 import recovery.TestRecoveryNone;
+import ui.command.TestDropCommand;
+import ui.command.TestReloadCommand;
 import weapon.TestAttachment;
 import weapon.TestChainGun;
 import weapon.TestGenericWeapon;
@@ -45,7 +47,9 @@ import gameplay.TestSimpleTimer;
 	TestChainGun.class,
 	TestStabilizer.class,
 	TestPowerBooster.class,
-	TestScope.class
+	TestScope.class,
+	TestDropCommand.class,
+	TestReloadCommand.class
 	})
 public class AllGameTests
 {

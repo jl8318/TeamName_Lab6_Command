@@ -10,6 +10,13 @@ import exceptions.EnvironmentException;
 import weapon.MockWeapon;
 import weapon.Weapon;
 
+/**
+ * Test ReloadCommand Class
+ * 
+ * @author Jixiang Lu
+ *
+ */
+
 public class TestReloadCommand
 {
 
