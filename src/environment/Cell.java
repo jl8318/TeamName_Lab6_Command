@@ -4,7 +4,7 @@ import lifeform.LifeForm;
 import weapon.Weapon;
 
 /**
- * A Cell that can hold a LifeForm. asdasdasdasdasd
+ * A Cell that can hold a LifeForm.
  * 
  * @author Jixiang Lu
  *
